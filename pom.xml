@@ -189,7 +189,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-    <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>org.easyb</groupId>
@@ -198,8 +197,7 @@
                 <scope>test</scope>
             </dependency>
         </dependencies>
-    </dependencyManagement>
-    <dependencies>
+        <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
