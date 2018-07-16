@@ -26,6 +26,13 @@
         <developerConnection>scm:git:git@github.com:${github.account}/game-of-life.git</developerConnection>
         <url>scm:git:git@github.com:${github.account}/game-of-life.git</url>
     </scm>
+    <distributionManagement>
+        <repository>
+            <id>test</id>
+            <name>mediaView-releases</name>
+            <url>http://192.168.241.134:8081/artifactory/test</url>
+        </repository>
+    </distributionManagement>
     <build>
         <plugins>
             <plugin>
