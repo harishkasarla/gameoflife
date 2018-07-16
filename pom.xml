@@ -1,21 +1,3 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- @harishkasarla Sign out
-115
-1,758 11,700 wakaleo/game-of-life
- Code  Issues 24  Pull requests 119  Projects 0  Wiki  Insights
-game-of-life/pom.xml
-9717b42  on Jan 27
-@GeraldScott GeraldScott Serenity version 1.8.3 missing from Maven repo so changed it to 1.8.4
-@wakaleo @GeraldScott
-     
-499 lines (485 sloc)  21.8 KB
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
