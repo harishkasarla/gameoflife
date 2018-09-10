@@ -10,4 +10,9 @@ node
     def mvnCMD = "${mvnHome}"
     sh 'mvn clean package'
   }
-}
+  stage('Example') {
+            steps {
+                echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
+            }
+        }
+  }
