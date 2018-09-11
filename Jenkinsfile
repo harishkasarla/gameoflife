@@ -22,7 +22,7 @@ pipeline {
     }
     stage('Copy Artifacts') {
       steps {
-        sh 'cp -r ./gameoflife-web/target/*.war /tmp/'
+        sh 'cp -r ./gameoflife-web/target/*.war /opt/tomcat/webapps/'
       }
     }
   }
