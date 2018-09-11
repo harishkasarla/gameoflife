@@ -20,5 +20,10 @@ pipeline {
         sh 'mvn clean package'
       }
     }
+    stage('Copy Artifacts') {
+      steps {
+        sh 'cp -r ./gameoflife-web/target/*.war /tmp/'
+      }
+    }
   }
 }
